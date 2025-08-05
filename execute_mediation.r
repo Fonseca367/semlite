@@ -3,7 +3,7 @@ pip <- gsub("python.exe", "pip.exe", py_config()$python)
 system2(pip, c("uninstall", "-y", "semlite"))
 
 
-py_install("git+https://github.com/souzathw/semlite.git", pip = TRUE)
+py_install("git+https://github.com/Fonseca367/semlite.git", pip = TRUE)
 py_install("chardet", pip = TRUE)
 install.packages("lavaan")
 sem <- import("semlite.mediation")
