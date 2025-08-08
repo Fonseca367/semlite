@@ -90,16 +90,6 @@ cat(result$summary, sep = "\n")
 
 ---
 
-### 🔹 Instalação no **Python** (localmente)
-
-```bash
-git clone https://github.com/souzathw/semlite.git
-cd semlite
-pip install .
-```
-
----
-
 ## 🧠 Licença
 
 Este projeto está licenciado sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para detalhes.
